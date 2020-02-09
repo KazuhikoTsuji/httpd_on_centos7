@@ -1,5 +1,5 @@
 FROM centos:centos7
-LABEL MAINTAINER Kazuhiko Tsuji
+LABEL MAINTAINER Kazuhiko 
 RUN yum install -y httpd && \
     yum upgrade -y && \
     yum clean all
